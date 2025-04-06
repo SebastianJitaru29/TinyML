@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/entry_points.txt
+writing requirements to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/requires.txt
+writing top-level names to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/top_level.txt
+reading manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+copying braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface
+running install
+running install_lib
+copying /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface
+byte-compiling /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface/braccio_interface.py to braccio_interface.cpython-310.pyc
+running install_data
+copying launch/braccio_control.launch.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface/launch
+running install_egg_info
+removing '/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface-0.0.1-py3.10.egg-info
+running install_scripts
+Installing braccio_interface_node script to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/braccio_hardware_interface
+writing list of installed files to '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log'

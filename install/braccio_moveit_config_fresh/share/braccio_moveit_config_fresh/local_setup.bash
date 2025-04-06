@@ -1,0 +1,1 @@
+/home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh/ament_cmake_environment_hooks/local_setup.bash

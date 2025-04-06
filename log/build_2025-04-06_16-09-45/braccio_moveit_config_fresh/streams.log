@@ -1,0 +1,41 @@
+[0.010s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh': CMAKE_PREFIX_PATH=/home/nero/braccio_ws_fresh/install/braccio_description:/home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --build /home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh -- -j8 -l8
+[0.060s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh' returned '0': CMAKE_PREFIX_PATH=/home/nero/braccio_ws_fresh/install/braccio_description:/home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --build /home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh -- -j8 -l8
+[0.061s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh': CMAKE_PREFIX_PATH=/home/nero/braccio_ws_fresh/install/braccio_description:/home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --install /home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh
+[0.070s] -- Install configuration: ""
+[0.070s] -- Execute custom install script
+[0.071s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/ament_index/resource_index/package_run_dependencies/braccio_moveit_config_fresh
+[0.071s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/ament_index/resource_index/parent_prefix_path/braccio_moveit_config_fresh
+[0.071s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/environment/path.sh
+[0.072s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/environment/path.dsv
+[0.072s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/local_setup.bash
+[0.072s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/local_setup.sh
+[0.072s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/local_setup.zsh
+[0.072s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/local_setup.dsv
+[0.072s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/package.dsv
+[0.083s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/ament_index/resource_index/packages/braccio_moveit_config_fresh
+[0.083s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/cmake/braccio_moveit_config_freshConfig.cmake
+[0.083s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/cmake/braccio_moveit_config_freshConfig-version.cmake
+[0.084s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/package.xml
+[0.084s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/demo.launch.py
+[0.084s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/move_group.launch.py
+[0.084s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/moveit_rviz.launch.py
+[0.085s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/rsp.launch.py
+[0.085s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/setup_assistant.launch.py
+[0.085s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/spawn_controllers.launch.py
+[0.085s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/static_virtual_joint_tfs.launch.py
+[0.085s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/launch/warehouse_db.launch.py
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/braccio.ros2_control.xacro
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/braccio.srdf
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/braccio.urdf.xacro
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/initial_positions.yaml
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/joint_limits.yaml
+[0.086s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/kinematics.yaml
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/moveit.rviz
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/moveit_controller.yaml
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/pilz_cartesian_limits.yaml
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/ros2_controllers.yaml
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/config/sensors_3d.yaml
+[0.087s] -- Up-to-date symlink: /home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh/share/braccio_moveit_config_fresh/.setup_assistant
+[0.090s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh' returned '0': CMAKE_PREFIX_PATH=/home/nero/braccio_ws_fresh/install/braccio_description:/home/nero/braccio_ws_fresh/install/braccio_moveit_config_fresh:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --install /home/nero/braccio_ws_fresh/build/braccio_moveit_config_fresh

@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake /home/nero/braccio_ws_fresh/src/braccio_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nero/braccio_ws_fresh/install/braccio_description
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.540s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.789s] -- Found Python3: /home/nero/cognitive_robotics_manipulation/cor_venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.896s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.931s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.077s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.078s] -- Added test 'lint_cmake' to check CMake code style
+[1.079s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.081s] -- Added test 'xmllint' to check XML markup files
+[1.085s] -- Configuring done
+[1.090s] -- Generating done
+[1.093s] -- Build files have been written to: /home/nero/braccio_ws_fresh/build/braccio_description
+[1.100s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake /home/nero/braccio_ws_fresh/src/braccio_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nero/braccio_ws_fresh/install/braccio_description
+[1.104s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --build /home/nero/braccio_ws_fresh/build/braccio_description -- -j8 -l8
+[1.173s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --build /home/nero/braccio_ws_fresh/build/braccio_description -- -j8 -l8
+[1.185s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --install /home/nero/braccio_ws_fresh/build/braccio_description
+[1.192s] -- Install configuration: ""
+[1.193s] -- Execute custom install script
+[1.193s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/ament_index/resource_index/package_run_dependencies/braccio_description
+[1.203s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/ament_index/resource_index/parent_prefix_path/braccio_description
+[1.214s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/environment/ament_prefix_path.sh
+[1.225s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/environment/ament_prefix_path.dsv
+[1.236s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/environment/path.sh
+[1.246s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/environment/path.dsv
+[1.255s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/local_setup.bash
+[1.265s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/local_setup.sh
+[1.275s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/local_setup.zsh
+[1.285s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/local_setup.dsv
+[1.295s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/package.dsv
+[1.304s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/ament_index/resource_index/packages/braccio_description
+[1.315s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/cmake/braccio_descriptionConfig.cmake
+[1.327s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/cmake/braccio_descriptionConfig-version.cmake
+[1.340s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/package.xml
+[1.351s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/OAK-D.stl
+[1.363s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_base.stl
+[1.372s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_elbow.stl
+[1.381s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_left_gripper.stl
+[1.390s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_right_gripper.stl
+[1.399s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_shoulder.stl
+[1.408s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_wrist_pitch.stl
+[1.420s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/stl/braccio_wrist_roll.stl
+[1.431s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/urdf/braccio_arm.xacro
+[1.441s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/urdf/braccio_arm.xacro.urdf
+[1.452s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/rviz/urdf.rviz
+[1.461s] -- Symlinking: /home/nero/braccio_ws_fresh/install/braccio_description/share/braccio_description/launch/display.launch.py
+[1.472s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/cmake --install /home/nero/braccio_ws_fresh/build/braccio_description

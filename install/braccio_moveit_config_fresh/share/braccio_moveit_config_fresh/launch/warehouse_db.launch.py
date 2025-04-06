@@ -1,0 +1,1 @@
+/home/nero/braccio_ws_fresh/src/braccio_moveit_config_fresh/launch/warehouse_db.launch.py

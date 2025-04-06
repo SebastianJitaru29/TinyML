@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="braccio">
+    <group name="braccio_arm">
+        <joint name="base_joint"/>
+        <joint name="shoulder_joint"/>
+        <joint name="elbow_joint"/>
+        <joint name="wrist_pitch_joint"/>
+        <joint name="wrist_roll_joint"/>
+        <chain base_link="braccio_base_link" tip_link="wrist_roll_link"/>
+    </group>
+    <group name="braccio_gripper">
+        <joint name="gripper_joint"/>
+    </group>
+    <group_state name="home" group="braccio_arm">
+        <joint name="base_joint" value="1.5708"/>
+        <joint name="shoulder_joint" value="1.5708"/>
+        <joint name="elbow_joint" value="1.5708"/>
+        <joint name="wrist_pitch_joint" value="1.5708"/>
+        <joint name="wrist_roll_joint" value="1.5708"/>
+    </group_state>
+
+    <group_state name="closed" group="braccio_gripper">
+        <joint name="gripper_joint" value="2.6"/>
+    </group_state>
+    <group_state name="open" group="braccio_gripper">
+        <joint name="gripper_joint" value="3.4425"/>
+    </group_state>
+    <end_effector name="braccio_gripper" parent_link="wrist_roll_link" group="braccio_gripper"/>
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="base_link"/>
+    <disable_collisions link1="base_link" link2="braccio_base_link" reason="Adjacent"/>
+    <disable_collisions link1="base_link" link2="elbow_link" reason="Never"/>
+    <disable_collisions link1="base_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="base_link" link2="wrist_pitch_link" reason="Never"/>
+    <disable_collisions link1="braccio_base_link" link2="elbow_link" reason="Never"/>
+    <disable_collisions link1="braccio_base_link" link2="shoulder_link" reason="Adjacent"/>
+    <disable_collisions link1="braccio_base_link" link2="wrist_pitch_link" reason="Never"/>
+    <disable_collisions link1="elbow_link" link2="left_gripper_link" reason="Never"/>
+    <disable_collisions link1="elbow_link" link2="right_gripper_link" reason="Never"/>
+    <disable_collisions link1="elbow_link" link2="shoulder_link" reason="Adjacent"/>
+    <disable_collisions link1="elbow_link" link2="wrist_pitch_link" reason="Adjacent"/>
+    <disable_collisions link1="elbow_link" link2="wrist_roll_link" reason="Never"/>
+    <disable_collisions link1="left_gripper_link" link2="wrist_pitch_link" reason="Never"/>
+    <disable_collisions link1="left_gripper_link" link2="wrist_roll_link" reason="Adjacent"/>
+    <disable_collisions link1="right_gripper_link" link2="wrist_pitch_link" reason="Never"/>
+    <disable_collisions link1="right_gripper_link" link2="wrist_roll_link" reason="Adjacent"/>
+    <disable_collisions link1="shoulder_link" link2="wrist_pitch_link" reason="Never"/>
+    <disable_collisions link1="shoulder_link" link2="wrist_roll_link" reason="Never"/>
+    <disable_collisions link1="wrist_pitch_link" link2="wrist_roll_link" reason="Adjacent"/>
+    <!-- Allow collisions between gripper fingers -->
+    <disable_collisions link1="left_gripper_link" link2="right_gripper_link" reason="Gripper fingers are allowed to contact"/>
+</robot>

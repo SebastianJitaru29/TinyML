@@ -1,0 +1,3 @@
+[console_scripts]
+braccio_interface_node = braccio_hardware_interface.braccio_interface:main
+

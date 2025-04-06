@@ -1,0 +1,9 @@
+# Initial positions for braccio's ros2_control fake system
+# Using values from SRDF home pose (arm) and open pose (gripper)
+initial_positions:
+  base_joint: 1.5708
+  shoulder_joint: 1.5708
+  elbow_joint: 1.5708
+  wrist_pitch_joint: 1.5708
+  wrist_roll_joint: 1.5708
+  gripper_joint: 1.5708 

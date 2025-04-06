@@ -1,0 +1,19 @@
+# moveit_controllers.yaml
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - braccio_arm_trajectory_controller
+    # - braccio_gripper_controller # Keep commented out
+
+  braccio_arm_trajectory_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints: # Ensure these match controller + URDF
+      - base_joint
+      - shoulder_joint
+      - elbow_joint
+      - wrist_pitch_joint
+      - wrist_roll_joint
+      - gripper_joint

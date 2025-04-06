@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/PKG-INFO
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/dependency_links.txt
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/entry_points.txt
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/requires.txt
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/top_level.txt
+../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/zip-safe
+braccio_hardware_interface/__init__.py
+braccio_hardware_interface/braccio_interface.py
+launch/braccio_control.launch.py
+resource/braccio_hardware_interface
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

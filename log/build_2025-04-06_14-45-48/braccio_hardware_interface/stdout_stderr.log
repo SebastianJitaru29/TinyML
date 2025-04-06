@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating braccio_hardware_interface.egg-info
+writing braccio_hardware_interface.egg-info/PKG-INFO
+writing dependency_links to braccio_hardware_interface.egg-info/dependency_links.txt
+writing entry points to braccio_hardware_interface.egg-info/entry_points.txt
+writing requirements to braccio_hardware_interface.egg-info/requires.txt
+writing top-level names to braccio_hardware_interface.egg-info/top_level.txt
+writing manifest file 'braccio_hardware_interface.egg-info/SOURCES.txt'
+reading manifest file 'braccio_hardware_interface.egg-info/SOURCES.txt'
+writing manifest file 'braccio_hardware_interface.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio-hardware-interface.egg-link (link to .)
+Installing braccio_interface_node script to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/braccio_hardware_interface
+
+Installed /home/nero/braccio_ws_fresh/build/braccio_hardware_interface
+running symlink_data
+creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/ament_index
+creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/ament_index/resource_index
+creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/ament_index/resource_index/packages
+symbolically linking /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/resource/braccio_hardware_interface -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/ament_index/resource_index/packages
+symbolically linking /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/package.xml -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface
+creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface/launch
+symbolically linking /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/launch/braccio_control.launch.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface/launch
