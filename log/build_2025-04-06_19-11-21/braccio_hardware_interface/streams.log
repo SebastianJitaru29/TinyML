@@ -1,0 +1,24 @@
+[0.904s] Invoking command in '/home/nero/braccio_ws_fresh/src/braccio_hardware_interface': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braccio_hardware_interface build --build-base /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build install --record /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log --single-version-externally-managed install_data
+[1.185s] running egg_info
+[1.186s] writing ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/PKG-INFO
+[1.186s] writing dependency_links to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/dependency_links.txt
+[1.186s] writing entry points to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/entry_points.txt
+[1.186s] writing requirements to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/requires.txt
+[1.186s] writing top-level names to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/top_level.txt
+[1.188s] reading manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+[1.189s] writing manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+[1.189s] running build
+[1.189s] running build_py
+[1.189s] copying braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface
+[1.190s] running install
+[1.190s] running install_lib
+[1.190s] copying /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface
+[1.191s] byte-compiling /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface/braccio_interface.py to braccio_interface.cpython-310.pyc
+[1.192s] running install_data
+[1.192s] running install_egg_info
+[1.194s] removing '/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface-0.0.1-py3.10.egg-info' (and everything under it)
+[1.195s] Copying ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface-0.0.1-py3.10.egg-info
+[1.195s] running install_scripts
+[1.221s] Installing braccio_interface_node script to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/braccio_hardware_interface
+[1.222s] writing list of installed files to '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log'
+[1.250s] Invoked command in '/home/nero/braccio_ws_fresh/src/braccio_hardware_interface' returned '0': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braccio_hardware_interface build --build-base /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build install --record /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log --single-version-externally-managed install_data
