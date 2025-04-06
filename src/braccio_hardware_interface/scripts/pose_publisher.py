@@ -23,7 +23,7 @@ class PosePublisher(Node):
         ]
 
         point = JointTrajectoryPoint()
-        point.positions = [2.0, 2.5, 2.2, 2.7, 2.3]  # Example pose
+        point.positions = [2.8, 2.5, 2.2, 2.7, 2.3]  # Example pose
         point.time_from_start.sec = 2
         msg.points.append(point)
 

@@ -1,0 +1,17 @@
+[1.150s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build --no-deps symlink_data
+[1.693s] running develop
+[2.114s] running egg_info
+[2.114s] writing braccio_hardware_interface.egg-info/PKG-INFO
+[2.114s] writing dependency_links to braccio_hardware_interface.egg-info/dependency_links.txt
+[2.114s] writing entry points to braccio_hardware_interface.egg-info/entry_points.txt
+[2.114s] writing requirements to braccio_hardware_interface.egg-info/requires.txt
+[2.115s] writing top-level names to braccio_hardware_interface.egg-info/top_level.txt
+[2.118s] reading manifest file 'braccio_hardware_interface.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'braccio_hardware_interface.egg-info/SOURCES.txt'
+[2.121s] running build_ext
+[2.122s] Creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio-hardware-interface.egg-link (link to .)
+[2.124s] Installing braccio_interface_node script to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/braccio_hardware_interface
+[2.124s] 
+[2.124s] Installed /home/nero/braccio_ws_fresh/build/braccio_hardware_interface
+[2.125s] running symlink_data
+[2.171s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface' returned '0': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cor_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build --no-deps symlink_data

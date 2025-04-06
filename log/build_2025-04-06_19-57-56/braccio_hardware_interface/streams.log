@@ -1,0 +1,33 @@
+[1.139s] Invoking command in '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build
+[1.490s] running develop
+[1.749s] Removing /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio-hardware-interface.egg-link (link to .)
+[1.795s] Invoked command in '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface' returned '0': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build
+[1.797s] Invoking command in '/home/nero/braccio_ws_fresh/src/braccio_hardware_interface': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braccio_hardware_interface build --build-base /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build install --record /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log --single-version-externally-managed install_data --force
+[2.164s] running egg_info
+[2.165s] writing ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/PKG-INFO
+[2.165s] writing dependency_links to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/dependency_links.txt
+[2.166s] writing entry points to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/entry_points.txt
+[2.166s] writing requirements to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/requires.txt
+[2.166s] writing top-level names to ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/top_level.txt
+[2.168s] reading manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+[2.171s] writing manifest file '../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info/SOURCES.txt'
+[2.171s] running build
+[2.172s] running build_py
+[2.172s] copying braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface
+[2.172s] running install
+[2.173s] running install_lib
+[2.174s] creating /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface
+[2.174s] copying /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface/braccio_interface.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface
+[2.174s] copying /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build/lib/braccio_hardware_interface/__init__.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface
+[2.174s] byte-compiling /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface/braccio_interface.py to braccio_interface.cpython-310.pyc
+[2.176s] byte-compiling /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface/__init__.py to __init__.cpython-310.pyc
+[2.176s] running install_data
+[2.176s] copying resource/braccio_hardware_interface -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/ament_index/resource_index/packages
+[2.177s] copying package.xml -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface
+[2.177s] copying launch/braccio_control.launch.py -> /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/share/braccio_hardware_interface/launch
+[2.177s] running install_egg_info
+[2.179s] Copying ../../build/braccio_hardware_interface/braccio_hardware_interface.egg-info to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages/braccio_hardware_interface-0.0.1-py3.10.egg-info
+[2.180s] running install_scripts
+[2.209s] Installing braccio_interface_node script to /home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/braccio_hardware_interface
+[2.209s] writing list of installed files to '/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log'
+[2.249s] Invoked command in '/home/nero/braccio_ws_fresh/src/braccio_hardware_interface' returned '0': PYTHONPATH=/home/nero/braccio_ws_fresh/build/braccio_hardware_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nero/braccio_ws_fresh/install/braccio_hardware_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braccio_hardware_interface build --build-base /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/build install --record /home/nero/braccio_ws_fresh/build/braccio_hardware_interface/install.log --single-version-externally-managed install_data --force

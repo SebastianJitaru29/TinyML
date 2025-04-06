@@ -3,6 +3,7 @@ import rclpy
 from rclpy.node import Node
 import serial, time, math, threading
 from trajectory_msgs.msg import JointTrajectory
+from sensor_msgs.msg import JointState
 
 # --- Constants ---
 JOINT_NAMES = ["base_joint", "shoulder_joint", "elbow_joint", "wrist_pitch_joint", "wrist_roll_joint"]
@@ -30,6 +31,21 @@ class BraccioHardwareInterface(Node):
             self.trajectory_callback,
             10
         )
+
+        self.joint_state_pub = self.create_publisher(JointState, "/joint_state", 10)
+        self._current_state_rad = [math.radians(a) for a in self._last_command]
+        self.create_timer(0.05, self.publish_joint_state)  # 20 Hz
+
+
+    def publish_joint_state(self):
+        msg = JointState()
+        msg.header.stamp = self.get_clock().now().to_msg()
+        msg.name = JOINT_NAMES
+        msg.position = self._current_state_rad
+        msg.velocity = [0.0] * NUM_JOINTS
+        msg.effort = [0.0] * NUM_JOINTS
+        self.joint_state_pub.publish(msg)
+
 
     def connect_serial(self):
         try:
@@ -60,6 +76,8 @@ class BraccioHardwareInterface(Node):
             cmd = f"P{','.join(map(str, target_deg))},{SEND_SPEED}\n"
             self.get_logger().info(f"Sending command: {cmd.strip()}")
             self.send_serial(cmd)
+            self._current_state_rad = [math.radians(a) for a in target_deg]
+
 
     def send_serial(self, command, timeout=2.0):
         try:
